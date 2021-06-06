@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.coupons .bankoffers2{
+    height: 17px;
+    width: 103px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: rgba(20, 13, 79, 0.7);
+    line-height: 18px;
+    border-bottom: 1px solid rgba(20, 13, 79, 0.7);
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.border {
+    border-bottom: 3px solid #fca311 !important;
+}
+
+.tag {
+    width: 40.93px !important;
+    height: 11px !important;
+    float: right;
+    margin-top: 4px;
+}
+
+.dealsandcoupons .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.dealsandcoupons .carousel .thumb-wrapper {
+    width: 150.81px;
+    height: 281px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    overflow: hidden;
+}
+
+.dealsandcoupons .carousel .thumb-content {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 10px 0px auto;
+
+}
+
+.dealsandcoupons .carousel .thumb-content h5 {
+    height: 36px;
+    width: 132.5px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0px 0;
+    margin-top: 11px;
+    font-family: Poppins;
+}
+
+.dealsandcoupons .off {
+    width: 76.48px;
+    height: 21px !i;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    font-family: Poppins;
+    color: #2B9348;
+}
+
+.dealsandcoupons .bankoffers {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.dealsandcoupons .carousel {
+    margin: 0px auto;
+    padding: 0 0px;
+}
+
+/*.carousel .item {
+  height: 260px;
+    text-align: center;
+  overflow: hidden;
+}*/
+.dealsandcoupons .carousel .item .img-box {
+    height: 110px;
+    width: 150.81px;
+    position: relative;
+}
+
+.dealsandcoupons .carousel .item img {
+    width: 150px;
+    height: 110px;
+    display: inline-block;
+
+}
+
+/*.dealsandcoupons .carousel .item h4 {
+  font-size: 18px;
+  margin: 0px 0;
+  font-family: Poppins;
+  height: 27px;
+  width: 162px;
+  line-height: 27px;
+  font-weight: 600;
+}*/
+.dealsandcoupons .carousel .item .btn {
+    color: black;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 27px;
+    width: 126.03px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    background: #FCA311;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 35px;
+    line-height: 16.5px;
+    margin-left: 4px;
+}
+
+.dealsandcoupons .carousel .carousel-control {
+    height: 24px;
+    width: 24px;
+    background: none;
+    margin: 140px -20px;
+    background: #E5E5E5;
+    border-radius: 50%;
+
+}
+
+.dealsandcoupons .validity {
+    width: 79.71px;
+    height: 15px;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 15px;
+    color: rgba(0, 0, 0, .4);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 14px;
+}
+
+
+.dealsandcoupons .carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.coupons .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+#coupons-row {
+    display: flex;
+    align-self: center;
+}
+
+.coupons .carousel-inner {
+    margin-top: 0px;
+}
+
+.coupons.carousel {
+    margin: 0px auto;
+    padding: 0 0px;
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.coupons.carousel .item {
+    min-height: 265px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.coupons .bankoffers {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 14px;
+    position: relative;
+}
+
+.border {
+    border-bottom: 3px solid #fca311 !important;
+}
+
+.coupons.carousel .thumb-wrapper {
+    height: 241px;
+    text-align: center;
+    background-color: white;
+    width: 192px;
+    margin-left: 25px;
+}
+
+.coupons.carousel .thumb-content {
+    padding-top: 10px;
+    padding-left: 2px;
+}
+
+.coupons.carousel .item .img-box {
+    height: 66px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px dashed #C4C4C4;
+}
+
+.coupons.carousel .item .img-box:after {
+    width: 34px;
+    height: 34px;
+    content: '';
+    padding-left: 34px;
+    padding-top: 14.7px;
+    border-radius: 50%;
+    background-color: rgba(229, 229, 229, 1);
+    position: relative;
+    top: 64px;
+    left: 80px;
+}
+
+.coupons.carousel .item .img-box:before {
+    width: 34px;
+    height: 34px;
+    content: '';
+    padding-left: 34px;
+    padding-top: 14.7px;
+    border-radius: 50%;
+    background-color: rgba(229, 229, 229, 1);
+    position: relative;
+    top: 64px;
+    right: 80px;
+}
+
+.coupons.carousel .item img {
+    width: 71px;
+    height: 44px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    margin: 11px auto;
+    left: 0;
+    right: 0;
+}
+
+.coupons.carousel .item h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.coupons .thumb-content .off {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2B9348;
+    font-family: Poppins;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+}
+
+.coupons .thumb-content .flat-off {
+    width: 167px;
+    margin: 0 auto;
+}
+
+.coupons .thumb-content .flat-off h4 {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.coupons.carousel .item .btn {
+    color: black;
+    border-radius: 0;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #FCA311;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    line-height: 16px;
+    font-family: Poppins;
+    width: 118px;
+    height: 27px;
+}
+
+.coupons .validity {
+    width: 128px;
+    height: 15px;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 15px;
+    color: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.coupons .expires {
+    margin-left: 20px;
+}
+
+.coupons.carousel .item .btn i {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.coupons .carousel .carousel-control {
+    height: 34px;
+    width: 34px;
+    background: none;
+    margin: 115px -20px;
+    background: #E5E5E5;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.coupons .carousel .carousel-control svg {
+    position: relative;
+    top: 7px;
+}
+
+.carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.cashbackandoffers .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cashbackandoffers .bankoffers {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.cashbackandoffers .carousel .thumb-wrapper {
+    width: 150.81px;
+    height: 281px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    overflow: hidden;
+}
+
+.cashbackandoffers .carousel .thumb-content {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 10px 0px auto;
+}
+
+.cashbackandoffers .carousel .thumb-content h5 {
+    height: 36px;
+    width: 132.5px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0px 0;
+    margin-top: 11px;
+    font-family: Poppins;
+}
+
+.cashbackandoffers .off {
+    width: 76.48px;
+    height: 21px !i;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    font-family: Poppins;
+    color: #2B9348;
+}
+
+.cashbackandoffers .carousel {
+    margin: 0px auto;
+    padding: 0 0px;
+}
+
+/*.carousel .item {
+  height: 260px;
+    text-align: center;
+  overflow: hidden;
+}*/
+.cashbackandoffers .carousel .item .img-box {
+    height: 110px;
+    width: 150.81px;
+    position: relative;
+}
+
+.cashbackandoffers .carousel .item img {
+    width: 150px;
+    height: 110px;
+    display: inline-block;
+}
+
+.cashbackandoffers .carousel .item .btn {
+    color: black;
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 18px;
+    height: 27px;
+    width: 126.03px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    background: #FCA311;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-top: 35px;
+    line-height: 16.5px;
+    margin-left: 4px;
+}
+
+
+.cashbackandoffers .carousel .carousel-control {
+    height: 24px;
+    width: 24px;
+    background: none;
+    margin: 140px -20px;
+    background: #E5E5E5;
+    border-radius: 50%;
+
+}
+
+.cashbackandoffers .validity {
+    height: 15px;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 15px;
+    color: rgba(0, 0, 0, .4);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 14px;
+}
+
+.cashbackandoffers .expires {
+    margin-left: 25px;
+}
+
+.cashbackandoffers .carousel .carousel-control i {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.bank .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #E5E5E5;
+}
+
+.bank .carousel {
+    margin: 0px auto;
+    padding: 0 0px;
+}
+
+/*.carousel .item {
+  min-height: 217px;
+    text-align: center;
+  overflow: hidden;
+}*/
+.bank .carousel .item .img-box {
+    height: 94px;
+    width: 100%;
+    position: relative;
+}
+
+.bank .carousel .item img {
+    max-width: 140px;
+    max-height: 94px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bank .carousel .item h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.bank .carousel .thumb-wrapper {
+    text-align: center;
+    width: 140px;
+}
+
+.bank .carousel .thumb-content {
+    width: 140px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Poppins;
+    background-color: #ffffff;
+    color: #140D4F;
+    margin-top: 1px;
+}
+
+.bank .carousel .carousel-control {
+    height: 24px;
+    width: 24px;
+    background: none;
+    margin: 36px -20px;
+    background: #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.bank .carousel .carousel-control {
+    margin-right: -5px;
+}
+
+.bank .carousel .carousel-control i {
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -16px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.bank .carousel .carousel-control.left i {
+    margin-left: -3px;
+}
+
+.bank .carousel .carousel-control.left i {
+    margin-right: -3px;
+}
+
+.bank .bankoffers {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 36px;
+    position: relative;
+}
+
+.carousel {
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.commentsimage {
+    width: 683px;
+    height: 100%;
+    position: relative;
+    top: -200px;
+    background-image: url(./images/comment1.png);
+}
+
+.carousel-cell {
+    width: 900px;
+    height: 235px;
+    padding: 0px 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.carousel-cell.is-selected {
+    height: 224px;
+    margin: auto 0;
+    transform: translateY(5.5px);
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.flickity-prev-next-button {
+    top: 50%;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50%;
+    transform: translateY(-50%);
+
+}
+
+.flickity-prev-next-button.next {
+    left: 73% !important;
+}
+
+.flickity-prev-next-button.previous {
+    top: 50%;
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.flickity-prev-next-button.previous {
+    left: 23.75% !important;
+}
+
+.flickity-button:disabled {
+    opacity: 1 !important;
+    cursor: auto !important;
+}
+
+.flickity-page-dots {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    line-height: 0;
+}
+
+
+.footer {
+    background-color: #233A6C;
+    color: white;
+    line-height: 21px;
+}
+
+.top {
+    height: 268px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.your {
+    color: #FCA311;
+}
+
+.biz {
+    color: red;
+}
+
+.left {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.middle1 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.middle2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.right {
+    font-size: 14;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14213D;
+    height: 56px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 109px;
+    height: 28px;
+}
+
+.link1 {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.footer-content {
+    margin-top: -10px;
+}
+
+.fa {
+    font-size: 2em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.getapp {
+    display: flex;
+}
+
+.playstore {
+    display: inline-block;
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+.ios {
+    display: inline-block;
+}

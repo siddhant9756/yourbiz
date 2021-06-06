@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    margin-top: 65px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.photographers{
+    width: 209px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 36px;
+    color: rgba(20, 13, 79, 1.0);
+}
+.photographers .border{
+    border: none !important;
+    border-bottom: 3px solid #FCA311 !important;
+}
+.input{
+    width: 600px;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.input select{
+    width: 161px;
+    height: 25.31px;
+    font-size: 9px;
+    line-height: 13.5px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: rgba(0, 0, 0, 0.38);
+}
+.input .select-svg{
+    width: 18px;
+    height: 16.33px;
+    color: rgba(89, 89, 89, .85);
+}
+.input .btn {
+    width: 69px;
+    height: 25px;
+    color: rgba(20, 13, 79, 1);
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #FCA311;
+    border: none;
+    padding: 3px 15px;
+    line-height: 18px;
+    font-family: Poppins;
+    margin-top: -1px;
+}
+.input .btn:hover,.input .btn:focus {
+  color: rgba(20, 13, 79, 1);
+  background: #FCA311;
+  border-color: #FCA311;
+  box-shadow: none;
+}
+.sort{
+    width: 28px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Poppins;
+    color: rgba(89, 89, 89, 1.0);
+    margin-top: 20px;
+}
+
+.card-item{
+    height: 308px;
+    width: 265px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    margin: auto;
+}
+.card-thumb{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.card-thumb img{
+    height: 200px;
+    width: 100%;
+}
+.card-text{
+    padding: 0px 2px;
+    margin-top: 15px;
+}
+.card-text .name{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+.card-text .name .heading{
+    width: 145px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.5px;
+    color: rgba(20, 13, 79, 1);
+}
+.card-text .name .place{
+    margin-right: 14px;
+    margin-top: -2px;
+    width: 45px;
+    height: 15px;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 15px;
+    color: rgba(20, 13, 79, 0.5);
+}
+.card-text .ratings{
+    display: flex;
+    justify-content: left;
+    margin-top: -5px;
+    height: 20px;
+    width: 100%;
+}
+.card-text .ratings .number{
+    height: 20px;
+    width: 21px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 19.5px;
+    color: rgba(43, 147, 72, 1);
+}
+.card-text .ratings .reviews{
+    height: 20px;
+    font-size: 9px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 13.5px;
+    color: rgba(20, 13, 79, 0.5);
+    margin-top: 0px;
+    margin-left: 20px;  
+}
+.card-text .type{
+    margin-top: 0px;
+    display: flex;
+}
+.card-text .type .name{
+    font-size: 10px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 15px;
+    color: rgba(20, 13, 79, 0.5);
+    margin-top: 2px;
+}
+.button{
+    display: flex;
+    margin-top: 3px;
+}
+.card-item .btn {
+    width: 100px;
+    height: 24px;
+    color: rgba(20, 33, 61, 1);
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #FCA311;
+    border: none;
+    padding: 1px 15px;
+    line-height: 21px;
+    font-family: Poppins;
+    margin: 0 auto;
+}
+#map{
+    font-size: 15px !important;
+    width: 9px;
+    height: 13px;
+    margin-right: 5px;
+    margin-bottom: 0em;
+    color: rgba(43, 147, 72, 1);
+}
+#map{
+    font-size: 8px;
+    width: 9px;
+    height: 13px;
+    margin-right: 5px;
+    margin-bottom: 0em;
+    color: rgba(43, 147, 72, 1);
+}
+.footer {
+    background-color: #233A6C;
+    color: white;
+    line-height: 21px;
+}
+
+.top {
+    height: 268px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.your {
+    color: #FCA311;
+}
+
+.biz {
+    color: red;
+}
+
+.left {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.middle1 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.middle2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.right {
+    font-size: 14;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14213D;
+    height: 56px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 109px;
+    height: 28px;
+}
+
+.link1 {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.footer-content {
+    margin-top: -10px;
+}
+
+.fab {
+    font-size: 2em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.getapp {
+    display: flex;
+}
+
+.playstore {
+    display: inline-block;
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+.ios {
+    display: inline-block;
+}
