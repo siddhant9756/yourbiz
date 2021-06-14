@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background: linear-gradient(157.44deg, rgba(33, 58, 143, 0.9) 0%, rgba(223, 62, 57, 0.819) 48.23%, rgba(31, 60, 140, 0.9) 100%);
+}
+.main-bottom{
+    width: 100%;
+    height: 571px;
+    background: url(images4/1.png);
+}
+.wave{
+    position: relative;
+    top: 80px;
+    width: 100%;
+}
+.box{
+    width: 402.5px;
+    height: 190px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: -175px;
+    margin: 0 auto;
+
+}
+.bell{
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    margin: 0 auto;
+    left: 175px;
+}
+.dot{
+    position: relative;
+    top: 5px;
+    left: -32px;
+}
+.circle{
+    position: relative;
+    top: -32px;
+    left: -31px;
+}
+.footer {
+    background-color: #233A6C;
+    color: white;
+    line-height: 21px;
+}
+
+.top {
+    height: 268px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+}
+.heading{
+    width: 248px;
+height: 27px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+text-align: justify;
+
+color: #FFFFFF;
+}
+.text{
+    width: 218px;
+height: 53px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+
+color: rgba(255, 255, 255, 0.3);
+}
+.box-input{
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.7);
+    width: 195px;
+height: 20px;
+padding-left: 8px;
+padding-top: 0px;
+padding-bottom: 4px;
+}
+.box-input:focus{
+    border: none;
+}
+.box-input::placeholder{
+    font-family: Poppins;
+    width: 115px;
+height: 14px;
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 13px;
+color: rgba(0, 0, 0, 0.2);
+}
+#box-button{
+    background: rgba(221, 64, 58, 0.9);
+    width: 61px;
+height: 15px;
+color: #000000;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 9px;
+line-height: 13px;
+text-align: center;
+text-decoration: none;
+margin-top: 7px;
+border-radius: 0px;
+padding: 0;
+}
+.your {
+    color: #FCA311;
+}
+
+.biz {
+    color: red;
+}
+
+.left {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.middle1 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.middle2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.right {
+    font-size: 14;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14213D;
+    height: 56px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 109px;
+    height: 28px;
+}
+
+.link1 {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.footer-content {
+    margin-top: -10px;
+}
+
+.fa {
+    font-size: 2em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.getapp {
+    display: flex;
+}
+
+.playstore {
+    display: inline-block;
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+.ios {
+    display: inline-block;
+}
