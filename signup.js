@@ -7,6 +7,10 @@ var popupform2 = document.getElementById("popup-form2");
 var popupform3 = document.getElementById("popup-form3");
 var popupform4 = document.getElementById("popup-form4");
 
+	popupform1.style.cssText= "display:block; opacity:1;visibility: visible; transform:scale(1);"
+	popupform2.style.cssText= "display:none;"
+	popupform3.style.cssText= "display:none;"
+	popupform4.style.cssText= "display:none;"
 
 customer.addEventListener("click",function(){
 	popupform2.style.cssText= "display:block; opacity:1;visibility: visible; transform:scale(1);"

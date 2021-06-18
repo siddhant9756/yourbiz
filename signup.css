@@ -125,30 +125,16 @@ body {
 }
 
 .popup-form1{
-	position: relative;
-	transform: scale(1);
-	transition: all .3s ease-in-out;
+	display: block;
 }
 .popup-form2{
 	display: none;
-	opacity: 0;
-	visibility: hidden;
-	transform: scale(.25);
-	transition: all .3s ease-in-out;
 }
 .popup-form3{
 	display: none;
-	opacity: 0;
-	visibility: hidden;
-	transform: scale(.25);
-	transition: all .3s ease-in-out;
 }
 .popup-form4{
 	display: none;
-	opacity: 0;
-	visibility: hidden;
-	transform: scale(.25);
-	transition: all .3s ease-in-out;
 }
 .left{
 	max-width: 300px;
@@ -184,32 +170,21 @@ margin-bottom: 31px;
 .influencer{
 	display: flex;
 	justify-content: space-around;
-	opacity: 1;
-	visibility: visible;
 }
 
 .customer{
 	display: flex;
 	justify-content: space-around;
-	opacity: 1;
-	visibility: visible;
-    transition: all .3s ease-in-out;
 }
 
 .publisher{
 	display: flex;
 	justify-content: space-around;
-	opacity: 1;
-	visibility: visible;
-    transition: all .3s ease-in-out;
 }
 
 .advertiser{
 	display: flex;
 	justify-content: space-around;
-	opacity: 1;
-	visibility: visible;
-    transition: all .3s ease-in-out;
 }
 
 .svg{
@@ -343,4 +318,18 @@ font-size: 11px;
 line-height: 16px;
 
 color: #213A8F;
+}
+
+.categoryselect{
+	font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #595959;
+float: right;
+margin-top: 0px;
 }
