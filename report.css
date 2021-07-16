@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 46.15px;
+    background: #233A6C;
+    padding-left: 15.23%;
+    padding-right: 15.23%;
+}
+.links{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E5E5E5;
+    text-decoration: none;
+}
+.main-body{
+	max-height: 1124px;
+	background-color: rgba(245, 236, 245, 1);
+	width: 100%;
+	padding-bottom: 26px;
+	padding-top: 5px;
+}
+input{
+	text-decoration: none;
+}
+.main-content{
+	max-height: 1092.26px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.left-bar{
+	width: 118px;
+	height: 966px;
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 162px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.navigation-link{
+
+}
+.right-bar{
+	width: 916px;
+	height: 1058px;
+	background: #FFFFFF;
+	box-shadow: -4px 0px 4px rgba(89, 89, 89, 0.21), 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.generate-reports{
+	padding-left: 37px;
+	padding-top: 18px;
+	padding-right: 146px;
+}
+.line{
+	border: 1px solid #C4C4C4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.heading{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #595959;
+}
+
+.data-inputs{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.date-input{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	width: 153px;
+	height: 26px;
+}
+.sub-heading{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: #595959;
+}
+.inputs{
+	
+}
+
+.data-grouping{
+
+}
+.data-input{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	width: 168px;
+	height: 26px;
+}
+.country-dropdown{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	width: 181px;
+height: 26px;
+}
+.campaign-dropdown{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	width: 351px;
+height: 26px;
+}
+.website-id{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	width: 733px;
+	height: 26px;
+}
+.report-name{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	width: 733px;
+	height: 26px;
+}
+.save{
+	font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #595959;
+}
+select{
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: #595959;
+}
+input::placeholder{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: #595959;
+	margin: 0 auto;
+}
+option{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: #595959;
+	margin: 0 auto;
+}
+.filter{
+
+}
+.btn{
+	background: #FCA311;
+border-radius: 7px;
+width: 160px;
+height: 44px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #233A6C;
+}
+.generated-reports{
+
+}
+.table{
+	padding-left: 22px;
+	padding-right: 19px;
+}
+th{
+	border-left: 1px solid #C4C4C4;	
+}
+td{
+	border-left: 1px solid #C4C4C4;
+}
+.table-heading{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	color: #384D7A;
+}
+.clock{
+	position: relative;
+	left: -26px;
+}
+.calender{
+	position: relative;
+	left: -26px;
+}
+.abc{
+	position: relative;
+	left: ;
+}
+
+
+
+.footer {
+    background-color: #233A6C;
+    color: white;
+    line-height: 21px;
+}
+
+.top {
+    height: 268px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.your {
+    color: #FCA311;
+}
+
+.biz {
+    color: red;
+}
+
+.left {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.middle1 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.middle2 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.right {
+    font-size: 14;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14213D;
+    height: 56px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 109px;
+    height: 28px;
+}
+
+.link1 {
+    font-size: 18px !important;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.footer-content {
+    margin-top: -10px;
+}
+
+.fa {
+    font-size: 2em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+
+.getapp {
+    display: flex;
+}
+
+.playstore {
+    display: inline-block;
+    margin-left: .75em;
+    margin-right: .75em;
+}
+
+.ios {
+    display: inline-block;
+}
